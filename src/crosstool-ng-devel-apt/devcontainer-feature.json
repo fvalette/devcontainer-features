@@ -1,0 +1,7 @@
+{
+    "id": "crosstool-ng-devel-apt",
+    "version": "1.0.0",
+    "name": "crosstool-ng devel dependencies (via pipx)",
+    "documentationURL": "http://github.com/camelot-os/devcontainer-features/tree/main/src/crosstool-ng-devel-apt",
+    "description": "Install devel dependencies in order to build crosstool-ng"
+}
