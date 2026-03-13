@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - crosstool-ng-devel-apt
+          - crosstool-ng
           - dtschema
         baseImage:
           - debian:latest
@@ -34,7 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - crosstool-ng-devel-apt
+          - crosstool-ng
           - dtschema
     steps:
       - uses: actions/checkout@v4
