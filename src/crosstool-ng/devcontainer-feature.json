@@ -1,6 +1,6 @@
 {
     "id": "crosstool-ng",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "crosstool-ng",
     "documentationURL": "http://github.com/camelot-os/devcontainer-features/tree/main/src/crosstool-ng",
     "description": "Clone, build and install crosstool-ng",
@@ -29,13 +29,9 @@
             "preserve_apt_list": true,
             "packages": "htop,build-essential,curl,ca-certificates,automake,autoconf,flex,bison,texinfo,help2man,file,gawk,libtool-bin,pipx,unzip"
         },
-        "ghcr.io/devcontainers-extra/features/pipx-package:1.1.8": {
-            "package": "meson",
+        "ghcr.io/camelot-os/devcontainer-features/meson:latest": {
             "version": "1.10.0"
         },
-        "ghcr.io/devcontainers-extra/features/pipx-package:1.1.8": {
-            "package": "ninja",
-            "version": "latest"
-        }
+        "ghcr.io/camelot-os/devcontainer-features/ninja:latest": {}
     }
 }
