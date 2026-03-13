@@ -7,7 +7,7 @@ dt-schema is a tools suite and schema data for Devicetree schema validation usin
 
 ```json
 "features": {
-    "ghcr.io/embedded-ossdev/devcontainer-features/dtschema:1": {}
+    "ghcr.io/camelot-os/devcontainer-features/dtschema:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ dt-schema is a tools suite and schema data for Devicetree schema validation usin
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/embedded-ossdev/devcontainer-features/blob/main/src/dtschema/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/camelot-os/devcontainer-features/blob/main/src/dtschema/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
